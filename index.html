@@ -105,8 +105,7 @@
                               'Error: Your browser doesn\'t support geolocation.');
       }
       </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA6qoUKQ3WJQd4ZxAahhFPM80WJbw-yws&libraries=places&callback=initAutocomplete"
-         async defer></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA6qoUKQ3WJQd4ZxAahhFPM80WJbw-yws&callback=initMap"></script>
       <script>
       // This example adds a search box to a map, using the Google Place Autocomplete
       // feature. People can enter geographical searches. The search box will return a
@@ -184,6 +183,7 @@
       }
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA6qoUKQ3WJQd4ZxAahhFPM80WJbw-yws&libraries=places">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA6qoUKQ3WJQd4ZxAahhFPM80WJbw-yws&libraries=places&callback=initAutocomplete"
+         async defer></script>
   </body>
 </html>
